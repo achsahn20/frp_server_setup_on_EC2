@@ -77,6 +77,16 @@ sudo chmod +x /opt/frp/frps
 ```
 sudo nano /opt/frp/frps.ini
 ```
+```
+[common]
+bind_port = 7000
+vhost_http_port = 80
+vhost_https_port = 443
+dashboard_port = 7500
+dashboard_user = admin
+dashboard_pwd = admin
+```
+
 ## 7.Run the frp server
 
 ```
